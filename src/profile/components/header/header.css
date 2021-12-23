@@ -1,0 +1,10 @@
+
+.span-header{
+    @apply bg-transparent rounded-lg px-2 py-3 hover:bg-gray-700 text-white md:px-4 lg:px-5 xl:px-10
+}
+.item-header{
+    @apply bg-transparent rounded-full p-3 m-1 hover:bg-gray-700 text-white
+}
+svg{
+    @apply fill-gray-400
+}
