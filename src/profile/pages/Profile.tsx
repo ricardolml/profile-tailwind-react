@@ -9,7 +9,7 @@ export const Profile = () => {
                     <div className="relative">
                         <img src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.30808-6/259786353_4786955998021752_8367263059276609854_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=e3f864&_nc_ohc=F1_SaDFPPrUAX9MR2YO&_nc_ht=scontent.fmex36-1.fna&oh=00_AT-yHsqS07CzyoveS8E53wFkRR323h4GuBUsWlT17O6Ypw&oe=61C9C723" alt="" />
                         <div className="absolute bottom-10 right-10 ">
-                            <button className="bg-gray-200 p-2 rounded-lg text-gray-600 font-bold text-sm hover:bg-gray-300">
+                            <button className="bg-gray-200 px-3 py-1 rounded-lg text-gray-600 font-bold text-sm hover:bg-gray-300">
                                 <i className="fas fa-camera"></i>
                                 <span className="float-right hidden md:block ml-1"> Editar foto de la portada </span>
                             </button>
@@ -28,27 +28,33 @@ export const Profile = () => {
                 </div>
                 <h1 className="text-center text-3xl">Ricardo Espinoza</h1>
                 <h2 className="text-center text-blue-400">Agregar presentación</h2>
-                <hr className="text-gray-200" />
+                <hr className="text-gray-200 mt-2" />
 
-                <nav className="flex flex-grow gap-4 justify-between py-1 px- ">
+                <nav className="flex flex-grow gap-4 justify-between py-1 mt-2 ">
                     <div className="flex gap-2 item-nav-p">
-                        <a href="https" className="border-b-2 border-blue-500 hidden md:block">Publicaciones</a>
-                        <a href="https" className="hidden md:block">Información</a>
-                        <a href="https" className="hidden md:block">Amigos 614</a>
-                        <a href="https" >Más <i className="fas fa-angle-down"></i></a>
+                        <a href="#" className="border-b-2 border-blue-500">Publicaciones</a>
+                        <a href="#" className="hidden md:block">Información</a>
+                        <a href="#" className="hidden md:block">Amigos 614</a>
+                        <a href="#" >Más <i className="fas fa-angle-down"></i></a>
                     </div>
                     <div className="flex gap-2 m-2 text-sm text-white text-center">
-                        <button className="p-2 rounded-md bg-blue-600 hover:bg-blue-700"> <i className="fas fa-plus-circle"></i> Agregar a historia</button>
-                        <button className="p-2 rounded-md bg-blue-600 hover:bg-blue-700"> <i className="fas fa-pencil-alt"></i> Editar perfil</button>
-                        <button className="p-2 px-3 rounded-md bg-blue-600 hover:bg-blue-700"><i className="fas fa-align-justify"></i></button>
+                        <button className="p-2 w-10 md:w-auto rounded-md bg-blue-600 hover:bg-blue-700 ">
+                            <i className="fas fa-plus-circle"></i>
+                            <span className="ml-1 hidden md:block float-right">Agregar a historia</span>
+                        </button>
+                        <button className="p-2 w-10 md:w-auto rounded-md bg-blue-600 hover:bg-blue-700"> 
+                            <i className="fas fa-pencil-alt"></i>
+                            <span className="ml-1 hidden md:block float-right">Editar perfil</span>                         
+                        </button>
+                        <button className="p-2 w-10 md:w-auto px-3 rounded-md bg-blue-600 hover:bg-blue-700"><i className="fas fa-align-justify"></i></button>
                     </div>
                 </nav>
 
             </div>
 
             <div className="bg-gray-900 h-64">
-                    :v
-                </div>
+                :v
+            </div>
 
         </div>
     )
