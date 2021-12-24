@@ -6,8 +6,17 @@ body {
     background-color: #282c34;
     @apply text-gray-200
 }
+hr{
+    @apply border-gray-600 mt-3
+}
 
 .item-nav-p >  a{
     @apply  p-4 rounded-md text-sm hover:bg-gray-700
 }
+.card-profile {
+    @apply mt-3 p-4 bg-gray-800 rounded-lg
+}
 
+.ocultar-sm{
+    @apply hidden md:block
+}

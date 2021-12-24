@@ -1,7 +1,7 @@
 import './header.css';
 export const Header = () => {
     return (
-        <nav className="flex flex-grow gap-4 justify-between py-1 px-3 bg-black ">
+        <nav className="flex flex-grow gap-4 justify-between py-1 px-3 bg-gray-800 ">
             <div className="flex gap-4">
                 <div className="mt-2 text-lg">
                     <i className="fab fa-2x fa-facebook"></i>
