@@ -10,7 +10,7 @@ Once you have cloned the project, it should be positioned in the folder: cd prof
 
 Being in the folder, you must enter the following command to download the dependencies: ` yarn install` 
 ~~~
-git clone https://github.com/ricardolml/journal-app.git
+git clone https://github.com/ricardolml/profile-tailwind-react.git
 cd profile-tailwind-react
 yarn install  
 ~~~
