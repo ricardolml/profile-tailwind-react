@@ -1,10 +1,5 @@
-import { CardDetalles } from "../components/cardDetalles/CardDetalles"
-import { Header } from "../components/header/Header"
-import { CardFotos } from '../components/cardFotos/CardFotos';
-import { CardPublicar } from '../components/cardPublicar/CardPublicar';
-import { CardFiltro } from "../components/cardFiltro/CardFiltro";
-import { CardAmigos } from '../components/cardAmigos/CardAmigos';
-import { CardPublicacion } from '../components/cardPublicacion/CardPublicacion';
+import { Header, CardDetalles, CardPublicar, CardFotos, CardFiltro, CardAmigos, CardPublicacion } from "../index";
+
 
 export const Profile = () => {
     return (
@@ -75,7 +70,7 @@ export const Profile = () => {
                         <div className="col-span-1 row-span-1 sm:col-span-1 sm:row-span-3 order-6 sm:order-5 " >
                             <CardPublicacion />
                         </div>
-                        <div className="order-3 lg:order-5">
+                        <div className="order-3 sm:order-5">
                             <CardAmigos />
                         </div>
                     </div>

@@ -1,0 +1,3 @@
+.button-reaccion{
+   @apply p-1 hover:bg-gray-700 w-full text-center rounded-lg transition ease-linear text-sm md:text-base
+}
