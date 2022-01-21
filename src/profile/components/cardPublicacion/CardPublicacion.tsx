@@ -3,7 +3,7 @@ export const CardPublicacion = () => {
     return (
         <div className="card-profile">
             <div className="flex gap-1">
-                <img className="h-10 rounded-full pl-1  pr-2" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t1.6435-9/116709535_3382440481806651_8287065624226565175_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=D3EpsqZMgewAX9f2Vpk&tn=uc2nBVkggslc1y30&_nc_ht=scontent.fmex36-1.fna&oh=00_AT9mp11Bk0mlzcN6ra9N7th9lWDnFmMeKiF8kExjAnHp1A&oe=61E94802" alt="hola" />
+                <img className="h-10 rounded-full pl-1  pr-2" src="./img/photo.jpeg" alt="img_profile" />
                 <div>
                     <p>Ricardo Espinoza <small className="text-gray-400">actualizó su foto de portada. </small> </p>
                     <p className="text-gray-400 text-xs">12 de diciembre a las 13:38</p>
@@ -34,7 +34,7 @@ export const CardPublicacion = () => {
             <hr />
 
             <div className="flex gap-1 mt-3">
-                <img className="h-8 rounded-full pl-1  pr-2" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t1.6435-9/116709535_3382440481806651_8287065624226565175_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=D3EpsqZMgewAX9f2Vpk&tn=uc2nBVkggslc1y30&_nc_ht=scontent.fmex36-1.fna&oh=00_AT9mp11Bk0mlzcN6ra9N7th9lWDnFmMeKiF8kExjAnHp1A&oe=61E94802" alt="hola" />
+                <img className="h-8 rounded-full pl-1  pr-2" src="./img/photo.jpeg" alt="img_profile" />
 
                 <div className="mt-1 mb-1 relative w-full">
                     <input type="text" className="rounded-full w-full p-1 pl-2 border-0 bg-gray-600" placeholder="Escribe un comentario…" />

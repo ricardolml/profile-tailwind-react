@@ -20,7 +20,7 @@ export const Profile = () => {
                     </div>
                     <div className="flex justify-center">
                         <div className="relative">
-                            <img className="w-52 rounded-full -mt-44 z-10 border-2 border-black" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t1.6435-9/116709535_3382440481806651_8287065624226565175_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=D3EpsqZMgewAX9f2Vpk&tn=uc2nBVkggslc1y30&_nc_ht=scontent.fmex36-1.fna&oh=00_AT9mp11Bk0mlzcN6ra9N7th9lWDnFmMeKiF8kExjAnHp1A&oe=61E94802" alt="" />
+                            <img className="w-52 rounded-full -mt-44 z-10 border-2 border-black" src="./img/photo.jpeg" alt="" />
                             <div className="absolute bottom-6 right-3 ">
                                 <button className="bg-gray-600 p-1 rounded-lg text-gray-300 text-lg px-2 hover:bg-gray-800">
                                     <i className="fas fa-camera"></i>
