@@ -3,7 +3,7 @@ export const CardPublicar = () => {
     return (
         <div className="card-profile">
             <div className="flex gap-1">
-                <img className="h-10 rounded-full pl-1  pr-2" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t1.6435-9/116709535_3382440481806651_8287065624226565175_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=D3EpsqZMgewAX9f2Vpk&tn=uc2nBVkggslc1y30&_nc_ht=scontent.fmex36-1.fna&oh=00_AT9mp11Bk0mlzcN6ra9N7th9lWDnFmMeKiF8kExjAnHp1A&oe=61E94802" alt="hola" />
+                <img className="h-10 rounded-full pl-1  pr-2" src="./img/photo.jpeg" alt="img_profile" />
                 <input type="text" className="rounded-lg p-2 w-full border-0 bg-gray-600" placeholder="¿Qué estás pensando?" />
             </div>
             <hr />

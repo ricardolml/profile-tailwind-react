@@ -17,7 +17,7 @@ export const CardPublicacion = () => {
             </div>
             <div className="flex max-w-xl mt-2">
                 <div className="w-full">
-                    <img src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.30808-6/259786353_4786955998021752_8367263059276609854_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=e3f864&_nc_ohc=Z5iPZ9SuqNgAX-NRZCd&_nc_ht=scontent.fmex36-1.fna&oh=00_AT9erkCLRfowb-7rsJPyGdw2pqOmy1mNRh04YrQyHH4dAw&oe=61CFB5E3" alt="" />
+                    <img src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="" />
                 </div>
             </div>
             <div className="flex mt-2">
